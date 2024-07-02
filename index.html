@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I Love You Lara</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Masukkan Tanggal Lahir Anda</h1>
+        <form id="loveForm">
+            <label for="birthDate">Tanggal Lahir:</label>
+            <input type="date" id="birthDate" name="birthDate" required>
+            <button type="submit">Kirim</button>
+        </form>
+        <div id="result" class="result">
+            <p id="message"></p>
+            <img id="heartImage" src="heart.png" alt="Heart Image" style="display: none;">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
